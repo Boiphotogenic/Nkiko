@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Life is Journey</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+      color: white;
+      display: flex;
+      overflow: hidden;
+    }
+
+    /* Left Sidebar Navigation */
+    nav {
+      width: 220px;
+      padding: 2rem 1rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    nav h2 {
+      font-size: 1.4rem;
+      margin-bottom: 2rem;
+      color: #00d9ff;
+    }
+
+    nav a {
+      display: block;
+      margin-bottom: 1rem;
+      text-decoration: none;
+      color: #ffffffcc;
+      font-size: 1rem;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    .socials {
+      margin-top: 3rem;
+    }
+
+    .socials a {
+      display: block;
+      margin-top: 0.5rem;
+      color: #00d9ff;
+      font-size: 0.9rem;
+    }
+
+    /* Main Content */
+    .main {
+      flex: 1;
+      padding: 4rem 3rem;
+      position: relative;
+      z-index: 2;
+    }
+
+    h1 {
+      font-size: 3em;
+      margin-bottom: 0.5rem;
+    }
+
+    p {
+      font-size: 1.2em;
+      color: #ccc;
+    }
+
+    .section {
+      margin-top: 3rem;
+      padding: 2rem;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 20px;
+    }
+
+    .section h2 {
+      color: #ffcc00;
+    }
+
+    /* Dust/Particles Canvas */
+    #particles-js {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      z-index: 0;
+      top: 0;
+      left: 0;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Particles Canvas -->
+  <div id="particles-js"></div>
+
+  <!-- Sidebar Navigation -->
+  <nav>
+    <h2>Menu</h2>
+    <a href="about.html">🧍 About Me</a>
+    <a href="sprots.html">⚽ Sports</a>
+    <a href="blog.html">✍️ Blog & Stories</a>
+    <a href="learning.html">🧠 Learning</a>
+    <a href="expliment.html">🎨 Experiments</a>
+    <a href="contact.html">📬 Contact</a>
+
+    <div class="socials">
+      <a href="https://github.com/" target="_blank">GitHub</a>
+      <a href="https://www.instagram.com/boi_photogenic?igsh=eDM5aWcza3diMnZt" target="_blank">Instagram</a>
+      <a href="mailto:nkikoarsen@gmail.com">Email</a>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="main">
+    <header>
+      <h1>Life is Journey</h1>
+      <p>Welcome to my world – where every step tells a story.</p>
+    </header>
+
+    <div class="section">
+      <h2>About This Site</h2>
+      <p>This website is a reflection of who I am: my passion for sports, creativity, growth, and storytelling.</p>
+    </div>
+  </div>
+
+  <!-- Include particles.js -->
+  <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+  <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": {
+          "value": 80
+        },
+        "size": {
+          "value": 2
+        },
+        "color": {
+          "value": "#ffffff"
+        },
+        "line_linked": {
+          "enable": true,
+          "distance": 150,
+          "color": "#ffffff",
+          "opacity": 0.2,
+          "width": 1
+        },
+        "move": {
+          "enable": true,
+          "speed": 1
+        }
+      }
+    });
+  </script>
+
+</body>
+</html>
