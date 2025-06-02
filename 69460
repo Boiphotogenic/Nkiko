@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio – Life is Journey</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('ikamba.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      color: #fff;
+    }
+    header {
+      text-align: center;
+      padding: 5rem 1rem 2rem;
+      background-color: rgba(0, 0, 0, 0.6);
+    }
+    header img {
+      width: 200px;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 50%;
+      border: 6px solid #c62828;
+      margin-bottom: 1rem;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.8rem;
+      color: #f8f8f8;
+    }
+    header p {
+      font-size: 1.2rem;
+      color: #ccc;
+    }
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1100px;
+      margin: auto;
+      background-color: rgba(0, 0, 0, 0.7);
+      border-radius: 15px;
+      margin-bottom: 2rem;
+    }
+    .section h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #ffdd57;
+    }
+    .card {
+      margin: 1.5rem 0;
+      padding: 1.5rem;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .card h3 {
+      margin-top: 0;
+      color: #fff;
+    }
+    .card p {
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #e0e0e0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="ali.jpg" alt="Ali">
+    <h1>My Life Portfolio</h1>
+    <p>Sport | Creativity | Personal Growth</p>
+  </header>
+
+  <div class="section">
+    <h2>📖 My Story</h2>
+    <div class="card">
+      <h3>From Nothing to Vision</h3>
+      <p>I started from absolute zero — no money, no comfort, no backup. But I had one thing: a vision that burned in my soul. I sacrificed temporary pleasures to invest in the life I dreamed of. I pushed forward when I had nothing but faith. Now with only $200, I am working in photography, style, and creativity — chasing my dream with everything I’ve got.</p>
+      <p>My journey has not been easy. I had to walk away from things that felt good in the moment to chase what truly matters. I live by principles: silence with purpose, humility in all things, relentless discipline, and faith in God. I do not just work — I give 200%. Every single day.</p>
+      <p>Here’s what life taught me:</p>
+      <ul style="color: #ffeb3b; padding-left: 1.5rem;">
+        <li>Greatness requires sacrifice. If you’re not giving up something — you’re not going forward.</li>
+        <li>People will doubt you. Let your actions be the proof that you were always meant to win.</li>
+        <li>Silence can be strength — move in silence, let success be your echo.</li>
+        <li>Faith and discipline will take you where motivation cannot.</li>
+        <li>Start with what you have, even if it’s just a dream and empty pockets. That’s enough.</li>
+        <li>Every day you delay is a chance you let fear win. Keep moving.</li>
+        <li>Respect God, honor your calling, and commit to becoming the best version of yourself.</li>
+        <li>Your pain has a purpose — let it shape your power.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>⚽ Sport Journey</h2>
+    <div class="card">
+      <h3>Discipline Every Day</h3>
+      <p>I train daily not to impress, but to stay grounded — physically and mentally. Discipline fuels my mind and body. I find inspiration in legends like Cristiano Ronaldo, Messi, Neymar, Mbappé, and Michael Jordan. Sports taught me structure, self-belief, and consistency.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🎨 Creative Expression</h2>
+    <div class="card">
+      <h3>Building Identity Through Style</h3>
+      <p>Style is not about clothes, it’s about message. Through fashion and photography, I express who I am and what I stand for. I want to build a unique identity, to be remembered not just for beauty, but for meaning behind it.</p>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>📈 Personal Growth</h2>
+    <div class="card">
+      <h3>Mental and Spiritual Elevation</h3>
+      <p>I grow by seeking truth. I improve by humbling myself, listening more than I speak, learning daily, and surrendering all I do to God. I seek excellence not for validation, but because it honors the life I was given.</p>
+    </div>
+  </div>
+
+</body>
+</html>
